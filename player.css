@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: #dddddd;
+    border: solid 1px #bbbbbb;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
+    margin: auto;
+    overflow: hidden;
+    width: 600px;
+}
+
+#header {
+    padding: 10px;
+}
+
+#header h1 {
+    margin: 0 0 10px;
+}
+
+#header p {
+    margin: 0;
+}
+
+#player {
+    border-top: solid 1px #bbbbbb;
+    height: 30px;
+    overflow: hidden;
+}
+
+#player button {
+    background-color: #dddddd;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    height: 100%;
+    padding: 5px;
+}
+
+#player button:hover {
+    background-color: #bbbbbb;
+}
+
+#player p {
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 0 0 10px;
+}
+
+#player p.playing {
+    color: #55aa55;
+    font-weight: bold;
+}
+
+#player p.error {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#player #player-file {
+    display: none;
+}
+
+#player #player-file-select {
+    border-right: solid 1px #bbbbbb;
+    float: left;
+}
+
+#player #player-stop {
+    border-left: solid 1px #bbbbbb;
+    float: right;
+}

@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Test</title>
+    <meta charset="utf-8">
+    <title>Player</title>
+    <link href="player.css" type="text/css" rel="stylesheet">
+    <script src="player.js" type="text/javascript"></script>
 </head>
 <body>
-<h1>Test</h1>
+<div id="container">
+    <div id="header">
+        <h1>png2audio-web</h1>
+        <p>Welcome to png2audio-web, a web-based player for PNG files created with <a href="https://github.com/4142/audio2png">audio2png</a>.</p>
+        <p>The player makes use of <a href="https://github.com/arian/pngjs">pngjs</a>. A desktop player is also available <a href="https://github.com/4142/png2audio-player">here</a>. png2audio-web, in addition to audio2png and png2audio-player, are licensed under the GNU GPLv3. The source code can be found <a href="https://github.com/4142/png2audio-web">here</a>.</p>
+        <p></p>
+
+    </div>
+    <div id="player">
+        <input id="player-file" type="file">
+        <button id="player-file-select" type="button">Select File</button>
+        <p id="player-status"></p>
+        <button id="player-stop" type="button">Stop Playing</button>
+    </div>
+</div>
 </body>
 </html>
