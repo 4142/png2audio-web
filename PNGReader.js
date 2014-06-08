@@ -2,7 +2,7 @@
 
 var inflate = (function(){
     return function(data, callback){
-        data = new stream.FlateStream(new stream.Stream(data));
+        data = new FlateStream(new Stream(data));
         callback(null, data.getBytes());
     };
 })();
