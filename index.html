@@ -2,8 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8">
+
     <title>png2audio-web</title>
+
     <link href="player.css" type="text/css" rel="stylesheet">
+
+    <script src="PNG.js" type="text/javascript"></script>
+    <script src="PNGReader.js" type="text/javascript"></script>
+    <script src="stream.js" type="text/javascript"></script>
     <script src="player.js" type="text/javascript"></script>
 </head>
 <body>
@@ -14,6 +20,7 @@
         <p>The player makes use of <a href="https://github.com/arian/pngjs">pngjs</a>. A desktop player is also available <a href="https://github.com/4142/png2audio-player">here</a>. png2audio-web, in addition to audio2png and png2audio-player, are licensed under the GNU GPLv3. The source code can be found <a href="https://github.com/4142/png2audio-web">here</a>.</p>
         <p><strong>Note:</strong> Your browser must support HTML5 audio (and specifically the Ogg Vorbis container/codec) and the FileReader API for the player to work.</p>
     </div>
+
     <div id="player">
         <input id="player-file" type="file">
         <button id="player-file-select" type="button">Select File</button>
